@@ -1,0 +1,78 @@
+@media (max-width: 600px) {
+    * {
+        transition-duration: 0.5s;
+    }
+
+    .about-us-sec, .menu, .event-sec , .contact-secm, .footer{
+        font-size: 80%;
+    }
+
+    .main-navigation-wrapper {
+        width: 100%;
+    }
+
+    .main-navigation a {
+        font-size: 14px;
+        margin-top: 3px;
+        text-align: center;
+        position: relative;
+        left: -10px;
+    }   
+        
+    .main-navigation a:hover {
+        letter-spacing: 0;
+    }
+
+    .slogan {
+        font-size: 9vh;
+    }
+
+    .menu-grid {
+        width: 80%;
+        height: 80%;
+    }
+
+    #menu h1, #menu h2{
+        font-size: 40px;
+    }
+
+    .events-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .event-wrapper {
+        margin: 10px 20px;
+    }
+
+    .event-img-background {
+        height: 200px;
+    }    
+
+    .event-intro h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .event-intro p {
+        font-size: 14px;
+    }
+
+    .contact-sec {
+        width: 80%;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-footer {
+        margin-left: 0;
+    }
+
+    .right-footer {
+        margin-right: 0;
+    }
+
+
+}
